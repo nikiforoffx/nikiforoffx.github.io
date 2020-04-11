@@ -6,8 +6,7 @@
                             }
 
             function showInfo(data, tabletop) {
-                     alert("Successfully processed!")
-                     var data = console.log(data)
+                     alert("Successfully processed!"), console.log(data)
                                               }
 
                  
