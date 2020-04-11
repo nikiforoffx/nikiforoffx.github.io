@@ -7,13 +7,13 @@
 
             function showInfo(data, tabletop) {
                      alert("Successfully processed!")
-                     var data = console.log(data) 
+                      
                                               }
 
                  
 
 
 
-
+            var data = console.log()
             window.addEventListener("DOMContentLoaded", init);
 
