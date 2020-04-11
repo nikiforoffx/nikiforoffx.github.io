@@ -13,6 +13,6 @@
                 alert('Successfully processed!')
                       console.log(data);
                                               }
-            window.addEventListener('DOMContentLoaded', init)
+            window.addEventListener(DOMContentLoaded, init);
 
       </script>
