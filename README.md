@@ -1,2 +1,2 @@
-<p color="green"># nikiforoffx.github.io <p>
+<p fontcolor="green"># nikiforoffx.github.io <p>
 Список покупок 
