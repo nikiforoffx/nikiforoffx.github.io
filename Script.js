@@ -7,8 +7,21 @@
                             }
 
             function showInfo(data, tabletop) {
-                alert('Successfully processed!')
-                      console.log(data);
+                     alert('Successfully processed!')
+                     console.log(data);
                                               }
+
+
+                     for (var i = 0; i < data.length; i++) {
+                            $('.post').append(
+                     
+                                   "<div ><h1>" + data[i].products + "</h1></div>"
+                                      
+                                             );
+                                                            }
+
+
+
+
             window.addEventListener('DOMContentLoaded', init);
 
