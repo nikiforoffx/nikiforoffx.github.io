@@ -8,7 +8,7 @@
                       console.log(data);
                 
                             for (var i = 0; i < data.length; i++) {
-                                    document.getElementById('googlelist').innerHTML = '<div ><h1>' + data[i].products + '</h1></div><br>';
+                                    $('googlelist').append( '<div ><h1>' + data[i].products + '</h1></div><br>');
                                                                   }
 
                                               }
