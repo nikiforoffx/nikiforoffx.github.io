@@ -4,7 +4,7 @@
                 Tabletop.init( { key: publicSpreadsheetUrl, callback: showInfo, simpleSheet: true } )
                             }
 
-            function showInfo(data, tabletop) {
+            function showInfo(data, Tabletop) {
                       console.log(data);
                 
                             for (var i = 0; i < data.length; i++) {
@@ -13,4 +13,4 @@
 
                                               }
 
-            window.addEventListener("DOMContentLoaded", init);
+            window.addEventListener('DOMContentLoaded', init);
